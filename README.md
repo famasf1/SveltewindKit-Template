@@ -1,16 +1,18 @@
-# Svelte Template! It has everything for me!
+# sv
 
-powered by [`sv`](https://github.com/sveltejs/cli).
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-It's literally empty project but with every single thing installed. 
-So i don't have to run `npx sv create .` and re-download everything again.
+## Creating a project
 
-## Stack?
+If you're seeing this, you've probably already done this step. Congrats!
 
-- MySQLv2
-- Bun runtime
-- Everything Svelte want me to try (Storybook, Paraglide, Drizzle etc.)
-- Typescript!
+```bash
+# create a new project in the current directory
+npx sv create
+
+# create a new project in my-app
+npx sv create my-app
+```
 
 ## Developing
 
@@ -34,19 +36,3 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-
-## Drizzle
-
-- You will need to set DATABASE_URL in your production environment  │
-│  - Run bun run db:start to start the docker container                │
-│  - Run bun run db:push to update your database schema    
-
-## Lucia
-│  - Run bun run db:push to update your database schema                │
-│  - Visit /demo/lucia route to view the demo     
-
-## Paraglide
-│  paraglide:                                                          │
-│  - Edit your messages in messages/en.json                            │
-│  - Consider installing the Sherlock IDE Extension                    │
-│  - Visit /demo/paraglide route to view the demo     
